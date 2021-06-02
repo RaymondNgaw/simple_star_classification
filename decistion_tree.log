@@ -1,0 +1,16 @@
+|--- feature_2 <= -3.53
+|   |--- class: 2
+|--- feature_2 >  -3.53
+|   |--- feature_3 <= 8.31
+|   |   |--- feature_3 <= -4.90
+|   |   |   |--- feature_2 <= 5.57
+|   |   |   |   |--- class: 4
+|   |   |   |--- feature_2 >  5.57
+|   |   |   |   |--- class: 5
+|   |   |--- feature_3 >  -4.90
+|   |   |   |--- class: 3
+|   |--- feature_3 >  8.31
+|   |   |--- feature_3 <= 15.51
+|   |   |   |--- class: 1
+|   |   |--- feature_3 >  15.51
+|   |   |   |--- class: 0
